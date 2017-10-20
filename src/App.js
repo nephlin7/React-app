@@ -1,27 +1,55 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+import { Router, browserHistory, Route } from 'react-router';
+import home from './home.js';
+import About from './About.js';
 import './App.css';
+
+
+
+
+// export default App;
+// const PageLink = ({ title }) => (
+//     <div className="App">
+//       <div className="App-header">
+//       
+//         <h2>{title}</h2>
+//       </div>
+//       <p className="App-intro">
+//         This is the {title} page.
+//       </p>
+//       <p>
+//         <Link to="/">Home</Link>
+//       </p>
+//       <p>
+//         <Link to="/about">About</Link>
+//       </p>
+//       <p>
+//         <Link to="/settings">Settings</Link>
+//       </p>
+//     </div>
+// );
+
+// const Home = (props) => (
+//   <PageLink title="Home"/>
+// );
+
+// const About = (props) => (
+//   <PageLink title="About"/>
+// );
+
+// const Settings = (props) => (
+//   <PageLink title="Settings"/>
+// <Route path="/settings" component={Settings}/>
+// );
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-         <br />
-        <div className="container">
-          <div className="jumbotron">
-            <h1 className="display-3">Hello, world to React </h1>
-            <h2 className="display-4">from heroku!</h2>
-            <p className="lead">This is a simple hero unit proyect with react, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr className="my-4" />
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p className="lead">
-              <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
-          </div>
-        </div>
+        <div>
+          <Router history={browserHistory}>
+            <Route path="/" component={home}/>
+            <Route path="/about" component={About}/>
+          </Router>
       </div>
     );
   }
