@@ -16,7 +16,7 @@ const Header = ({title}) => (
           <span className="icon-bar"></span>
           <span className="icon-bar"></span>
         </button>
-        <a className="navbar-brand" href="http://www.creative-tim.com">React App</a>
+        <a className="navbar-brand" href="http://www.creative-tim.com">G7 Dev</a>
       </div>
   
       <div className="collapse navbar-collapse" id="navigation-example">
@@ -32,7 +32,7 @@ const Header = ({title}) => (
           </li>
           <li>
             <a
-              href="https://twitter.com/CreativeTim"
+              href="https://twitter.com/G7Dev"
               target="_blank"
               className="btn btn-simple btn-white btn-just-icon">
               <i className="fa fa-twitter"></i>
@@ -40,7 +40,7 @@ const Header = ({title}) => (
           </li>
           <li>
             <a
-              href="https://www.facebook.com/CreativeTim"
+              href="https://www.facebook.com/G7Dev"
               target="_blank"
               className="btn btn-simple btn-white btn-just-icon">
               <i className="fa fa-facebook-square"></i>
@@ -48,7 +48,7 @@ const Header = ({title}) => (
           </li>
           <li>
             <a
-              href="https://www.instagram.com/CreativeTimOfficial"
+              href="https://www.instagram.com/G7Dev"
               target="_blank"
               className="btn btn-simple btn-white btn-just-icon">
               <i className="fa fa-instagram"></i>
@@ -62,8 +62,8 @@ const Header = ({title}) => (
 	<div className="container">
 	  <div className="row">
 		<div className="col-md-6">
-		  <h1 className="title">from heroku Home!</h1>
-		  <h4>Hello, world to React in dev mode inside pages Folder.</h4>
+		  <h1 className="title">Hello, world</h1>
+		  <h4> This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information.</h4>
 		  <br/>
 		  <a
 			href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

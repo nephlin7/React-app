@@ -21,9 +21,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header>
-          <Navbar />
-        </Header>
+        <Header/>
         <Main />
         <Footer />
       </div>
